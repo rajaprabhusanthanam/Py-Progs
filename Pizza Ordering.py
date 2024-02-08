@@ -1,28 +1,3 @@
-'''
-
-# Take an integer input from the user
-user_input = input("Enter an integer: ")
-
-# Initialize variables to keep track of the current digit and its count
-current_digit = user_input[0]
-count = 1
-
-# Iterate through the remaining digits
-for digit in user_input[1:]:
-    if digit == current_digit:
-        count += 1
-    else:
-        # Print the current digit and its count in parentheses
-        print("({count}, {current_digit})", end=" ")
-
-        # Reset count and update the current digit
-        current_digit = digit
-        count = 1
-
-# Print the last digit and its count in parentheses
-print("({count}, {current_digit})")
-
-'''
 
 '''
 Chicken Fiesta Pizza
